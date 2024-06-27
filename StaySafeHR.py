@@ -17,7 +17,7 @@ strategies for a more stable and engaged workforce.
 
 def show_main():
 
-    logo = Image.open('/Users/oznurgok/Desktop/logo2.png')
+    logo = Image.open('hrattritionprediction/logo2.png')
     st.image(logo, caption='', use_column_width=True)
 
 if __name__ == '__main__':
