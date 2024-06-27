@@ -2,7 +2,7 @@ import streamlit as st
 
 from PIL import Image
 
-logo = Image.open('/Users/oznurgok/Desktop/logo2.png')
+logo = Image.open('hrattritionprediction/logo2.png')
 st.sidebar.image(logo, caption='Wellcome to StaySafe.HR()', use_column_width=True)
 st.sidebar.markdown("""
 ## About Us
@@ -21,7 +21,7 @@ def show_home():
     st.text("application, please watch the video below.")
     st.text("")
 
-    video_path = '/Users/oznurgok/Desktop/HRPROJETanırım.mp4'
+    video_path = 'hrattritionprediction/HRPROJETanırım.mp4'
     st.video(video_path)
 
 
