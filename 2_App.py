@@ -6,7 +6,7 @@ from PIL import Image
 
 # CatBoost modelini yükleme
 model = cb.CatBoostClassifier()
-model.load_model('/Users/oznurgok/Desktop/catboost_model3.cbm')
+model.load_model('hrattritionprediction\catboost_model.cbm')
 
 logo = Image.open('/Users/oznurgok/Desktop/logo2.png')
 st.sidebar.image(logo, caption='Welcome to StaySafe.HR()', use_column_width=True)
